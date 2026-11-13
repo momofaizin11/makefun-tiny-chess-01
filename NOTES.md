@@ -52,3 +52,7 @@ Dicoba lalu dibalikkan: reverse futility pruning (d<4, margin 110*d) -
 bench lebih dalam 3/8 tapi arena 3,0/6 dan match v7 12,5/24 (eval
 material+PST belum cukup dipercaya untuk pruning statis). Null move R=3
 saat d>5: kedalaman sama sekali tidak berubah pada budget ini.
+
+## v11 (13 Nov)
+- Bonus benteng di jalur pion terbuka/half-open (+12/+6), dihitung dari peta file pion yang dibuat di awal evaluasi.
+- Uji internal (8 partai, anchor panitia): ~1.355 poin, naik dari ~1.188 versi sebelumnya.
